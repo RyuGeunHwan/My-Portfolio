@@ -1,0 +1,27 @@
+:root{
+	/* class="s1" background color */
+	--mainColor:#15202B;
+	/* class="left-column" , class="right-column" , class="s2" background color */
+	--secondaryColor:#192734;
+
+	/* border solid tag */
+	--borderColor:#164D56;
+
+	/* h3 태그 */
+	--mainText:rgb(255, 255, 255);
+	/* p 태그 */
+	--secondaryText:#eeeeee;
+
+	/* id="purple-mode" */
+	--themeDotBorder:#FFF;
+
+	/* id="preview"*/
+	--previewBg:rgb(25, 39, 52, 0.8);
+	/* id="preview-shadow" */
+	--previewShadow:#111921;
+
+
+	--buttonColor:#17b832;
+
+
+}

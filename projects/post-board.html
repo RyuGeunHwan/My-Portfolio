@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>학원 게시판</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="shortcut icon" href="../images/logo.ico" />
+    <style type="text/css">
+      .img-container {
+        max-width: 700px;
+      }
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <a href="../index.html">
+        <div class="dots-wrapper">
+          <div id="dot-1" class="browser-dot"></div>
+          <div id="dot-2" class="browser-dot"></div>
+          <div id="dot-3" class="browser-dot"></div>
+        </div>
+      </a>
+      <ul id="navigation">
+        <li><a href="../index.html">HOME</a></li>
+      </ul>
+    </div>
+
+    <div class="main-container">
+      <br />
+      <!-- 프로젝트 메인 이미지 -->
+      <div class="img-container"></div>
+
+      <h3>학원 게시판 사이트 제작</h3>
+      <p>
+        <br />
+        수업시간에 진행했던, CRUD를 기초로 간단한 학원 게시판을 개발했습니다.
+        <br />
+        개발기간은 약 2주 정도 소요되었고 처름으로 클라우드에 배포까지
+        해보았습니다.
+        <br />
+        <br />
+        프로젝트를 진행한 이유?
+        <br />
+        이유 : 쌸라쌸라
+        <br />
+        <br />
+        1. RestController와 Controller를 따로 만들어 백엔드와 프론트가 통신하는
+        그림을 공부하게 되었습니다.
+        <br />
+        2. AJAX를 이용하여 비동기처리하는 방식을 알게됨과 동시에 AJAX의 장단점을
+        알게되었습니다.
+        <br />
+        3. MVC패턴을 베이스로 하여 Controller, Service, Mapper 구조를 공부하는데
+        중점을 두었습니다.
+        <br />
+        (...)
+        <br />
+        update, delete, insert는 VO 객체로 매핑하고, select는 HashMap을 매핑하는
+        규칙도 정해 보았습니다.
+        <br />
+        (...)
+        <br />
+        WAR와 JAR의 차이점을 알고 AWS EC2에 WAR파일을 최종 배포(deploy)
+        했습니다.
+        <br />
+        해당 게시판은
+        <a href="http://13.125.252.191:8080/login">board</a> 여기서 확인이
+        가능합니다. 아이디는 "비밀번호777"이고 비밀번호는 "777"입니다.
+        <br />
+        해당소스는 <a href="#">github source</a> 여기서 확인이 가능합니다.
+        <br />
+
+        <br />
+      </p>
+      <h5>Technologies:</h5>
+      <ul>
+        <li>- HTML5</li>
+        <li>- CSS5</li>
+        <li>- JavaScript</li>
+        <li>- jQuery</li>
+        <li>- AJAX</li>
+        <li>- Git</li>
+        <li>- Restful API</li>
+        <li>- Spring Boot(2.6.7v)</li>
+        <li>- Spring Security</li>
+        <li>- Spring poi</li>
+        <li>- JAVA(12.0.2v)</li>
+        <li>- MySQL</li>
+        <li>- MyBatis(ORM)</li>
+        <li>- Gradle(빌드툴)</li>
+        <li>- JSP&JSTL(템플릿엔진)</li>
+        <li>- Eclipse(IDE)</li>
+        <li>- VSCode</li>
+        <li>- AWS EC2(CentOS) or Beanstalk</li>
+        <li>- AWS RDS(MySQL)</li>
+      </ul>
+
+      <h5>Entity Relationship Diagram</h5>
+      <div class="img-container">
+        <img
+          src="../images/게시판/게시판 엔티티 관계도.PNG"
+          style="width: 300px; height: 350px; border: 1px solid"
+        />
+      </div>
+      <h5>Board Dashboard</h5>
+      <div class="img-container">
+        <img
+          src="../images/게시판/게시판Dashboard.PNG"
+          style="border: 1px solid"
+        />
+      </div>
+      <h5>Board logs</h5>
+      <div class="img-container">
+        <img src="../images/게시판/게시판logs.PNG" style="border: 1px solid" />
+      </div>
+      <h5>Board Students</h5>
+      <div class="img-container">
+        <img
+          src="../images/게시판/게시판Students.PNG"
+          style="border: 1px solid"
+        />
+      </div>
+    </div>
+  </body>
+</html>
